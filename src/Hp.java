@@ -5,8 +5,8 @@ public class Hp {
 	public PImage heart;
 	//initialization of variables
 	public int life1 = 460;
-	public int life2 = 500;
-	public int life3 = 540;
+	public int life2;
+	public int life3;
 	public int hp = 3;
 	//definition of variable PApplet type, PApplet allows us to acces all processing functions
 	public PApplet h;
