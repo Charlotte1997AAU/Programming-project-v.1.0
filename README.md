@@ -1,7 +1,7 @@
 # Programming-project-v.1.0
 Programming project 2nd semester
 
-double click "Defend the city.jar" file to run the program. 
+Double click "Defend the city.jar" file to run the program. 
 
 Controls:
 Enter to start the game.\
