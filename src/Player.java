@@ -6,7 +6,6 @@ public class Player{
 	public PImage character; 
 	//definition of variables
     public int x;
-    public int y;
    //PApplet allows us to acces all processing functions
     public PApplet p;
     

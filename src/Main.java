@@ -20,7 +20,7 @@ public class Main extends PApplet {
 	public int hp = 3;
 	public boolean hit = false;
 	public int check = 1;
-	public PImage Devil;
+	
 	
 	
 	public void settings() {
@@ -129,7 +129,7 @@ public class Main extends PApplet {
 		}
 		
 		//calls functions to detect collision with enemy/player, enemy/wall/, coin/wall, and player/coin
-		collision();
+		enemyCollision();
 		wallCollision();
 		coinCollision();
 		
@@ -189,7 +189,7 @@ public class Main extends PApplet {
 		}
 	
 	// check if the player has hit an enemy and removes him
-	public void collision() {
+	public void enemyCollision() {
 		for(int i = 0; i < enemyArray.length; i++) {
 			if(playerx <= enemyArray[i].x + 20 && playerx >= enemyArray[i].x - 20 && 660 <= enemyArray[i].y + 50 && 660 >= enemyArray[i].y -50){
 				println("collison");
