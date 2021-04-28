@@ -8,5 +8,6 @@ Enter to start the game.\
 Use A or D, or the arrows to go right or left. 
 
 Objective:
-Keep the demons from the city,\
-earn points, each demon gives 1 point, each coin gives 5 points.
+Keep the demons from the city. Earn points.\
+Each demon gives 1 point, each coin gives 5 points.\
+Stay alive for as long as you can.
